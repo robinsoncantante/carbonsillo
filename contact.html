@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Contáctanos - Carboncillo Ideas Rayadas</title>
+  <meta name="description" content="Página de contacto oficial de Carboncillo Ideas Rayadas, marca chucureña de ropa artesanal con frases únicas.">
+  <meta name="keywords" content="Carboncillo, ropa chucureña, contacto, San Vicente de Chucurí, artesanía, gorras, camisas, manillas">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="contact-page">
+
+  <!-- ======= Encabezado ======= -->
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Página Principal</a></li>
+          <li><a href="about.html">Qué Somos</a></li>
+          <li><a href="resume.html">Resumen</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="portfolio.html">Catálogo</a></li>
+
+          <li class="dropdown"><a href="#"><span>Información</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="vision.html">Visión</a></li>
+              <li><a href="mision.html">Misión</a></li>
+              <li><a href="resena_historica.html">Reseña Histórica</a></li>
+              <li><a href="informacion_de_la_pagina.html">Información de la Página</a></li>
+              <li><a href="Creadores.html" class="active">Creadores</a></li>
+            </ul>
+          </li>
+
+          <li><a href="contact.html" class="active">Contáctanos</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contáctanos</h2>
+        <p>Llevamos el arte y la esencia de San Vicente de Chucurí en cada prenda. 💚  
+          <strong>Carboncillo Ideas Rayadas</strong> es 100% chucureña, creada por manos chucureñas para quienes sienten el alma de nuestra tierra.  
+          Escríbenos y haz parte de esta historia que nació entre montañas, café y corazón.</p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4 g-lg-5">
+
+          <!-- Información de contacto -->
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Cómo nos puedes contactar</h3>
+              <p>Aquí encontrarás nuestra ubicación, teléfonos y correos para comunicarte con nosotros:</p>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box"><i class="bi bi-geo-alt"></i></div>
+                <div class="content">
+                  <h4>Ubicación</h4>
+                  <p>Calle 6 #8-29</p>
+                  <p>San Vicente de Chucurí - Bosque Bajo</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box"><i class="bi bi-telephone"></i></div>
+                <div class="content">
+                  <h4>Teléfonos</h4>
+                  <p>302 253 5461</p>
+                  <p>311 548 1838</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box"><i class="bi bi-envelope"></i></div>
+                <div class="content">
+                  <h4>Email</h4>
+                  <p>robinsonmeneses4668qcolcato.edu.co</p>
+                  <p>carboncilloideasrayadas@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulario de contacto -->
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Escríbenos</h3>
+              <p>Déjanos tus inquietudes y comentarios 💬</p>
+
+              <form onsubmit="enviarFormulario(event)">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" id="nombre" class="form-control" placeholder="Tu nombre" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" id="correo" class="form-control" placeholder="Tu correo" required>
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" id="asunto" class="form-control" placeholder="Asunto" required>
+                  </div>
+
+                  <div class="col-12">
+                    <textarea id="mensaje" class="form-control" rows="6" placeholder="Mensaje" required></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button type="button" class="btn btn-success m-2" onclick="enviarWhatsApp()">Enviar por WhatsApp</button>
+                    <button type="button" class="btn btn-primary m-2" onclick="enviarCorreo()">Enviar por Correo</button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+      <p>© 2025 <strong>Carboncillo Ideas Rayadas</strong>. Todos los derechos reservados.</p>
+      <p>Hecho con 💚 en San Vicente de Chucurí</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Script de Envío -->
+  <script>
+    function obtenerDatos() {
+      const nombre = document.getElementById("nombre").value;
+      const correo = document.getElementById("correo").value;
+      const asunto = document.getElementById("asunto").value;
+      const mensaje = document.getElementById("mensaje").value;
+      return { nombre, correo, asunto, mensaje };
+    }
+
+    function enviarWhatsApp() {
+      const { nombre, correo, asunto, mensaje } = obtenerDatos();
+      const texto = `👋 Hola, soy ${nombre}.%0A📧 Correo: ${correo}%0A📌 Asunto: ${asunto}%0A📝 Mensaje:%0A${mensaje}`;
+      const numero = "573022535461";
+      window.open(`https://wa.me/${numero}?text=${texto}`, "_blank");
+    }
+
+    function enviarCorreo() {
+      const { nombre, correo, asunto, mensaje } = obtenerDatos();
+      const destinatario = "robinsonmeneses4668qcolcato.edu.co";
+      const cuerpo = `Hola, soy ${nombre} (%0AEmail: ${correo})%0A%0AAsunto: ${asunto}%0A%0AMensaje:%0A${mensaje}`;
+      window.location.href = `mailto:${destinatario}?subject=${encodeURIComponent(asunto)}&body=${cuerpo}`;
+    }
+  </script>
+
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
